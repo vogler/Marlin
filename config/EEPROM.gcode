@@ -3,7 +3,7 @@
 ; Filament settings: Disabled
   M200 S0 D1.75
 ; Steps per unit:
- M92 X80.12 Y80.12 Z399.78 E430.00
+ M92 X80.12 Y80.12 Z399.78 E414.26
 ; Maximum feedrates (units/s):
   M203 X300.00 Y300.00 Z50.00 E40.00
 ; Maximum Acceleration (units/s2):
