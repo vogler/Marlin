@@ -430,9 +430,10 @@
  *
  * Define one or both of these to override the default 0-255 range.
  */
-// 1 and 13 were good values for FAST_PWM_FAN with the stock fan, removed PWM whine < 100%
-// #define FAN_MIN_PWM 1
-// #define FAN_MAX_PWM 13
+// experimentally determined good values where fan turns on at 1% and reaches max rpm <= 100% (min/max):
+// stock fan with FAST_PWM_FAN: 1/13, removed PWM whine < 100%
+#define FAN_MIN_PWM 128
+#define FAN_MAX_PWM 255
 
 /**
  * FAST PWM FAN Settings
